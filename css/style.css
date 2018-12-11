@@ -1,3 +1,27 @@
+/*
+Base Resonsive Styling
+*/
+/*The following 7 lines are from PAul Irish and apply a border-box model.
+See this page for mre info: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+	box-sizing: border-box:
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* Basic Responsive Images and Video */
+img,video{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
+/* Force Browsers to see HTML5 elements as block elements */
+article, aside, details, figcaption, figure, footer, header, main, nav, section {
+	display: block;
+}
 a:link {
     color: gray;
 	text-decoration: none;
@@ -24,6 +48,7 @@ a:active {
 body {
   display: grid;
   grid-gap: 1em;
+  grid-template-columns: 3fr 1fr;
 }
 
 header {
@@ -59,7 +84,6 @@ main {
   font-size: 1em;
   font-family: Helvetica Neue, Calibri, Arial, Open Sans, sans-serif;
   padding: 14px 25px;
-  text-align: center; 
     
   }
   
@@ -70,9 +94,28 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+
+	
 }
 
 header,
 footer {
-  height: 10vw;;
+
+}
+
+.articl-text figure{
+	margin:0;
+}
+.site-header{
+background-color: #000;
+}
+.site-header img{
+	width: 25%;
+	text-align: center;
+}
+
+.article-aside{
+	margin-top: 4em;
+	font-family: Helvetica Neue, Calibri, Arial, Open Sans, sans-serif;
+	
 }
