@@ -31,7 +31,7 @@ header {
 	float: left;
 	width: 250px;
 	height: 67px;
-	background: url(images/small_nyc_places_logo.png) no-repeat center;
+	background: url(../images/small_nyc_places_logo.png) no-repeat center;
 	display: block;
 
 }
@@ -48,7 +48,7 @@ nav {
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #ff0000 url(images/menu_icon.png) center;
+	background: #ff0000 url(../images/menu_icon.png) center;
 
 }
 
